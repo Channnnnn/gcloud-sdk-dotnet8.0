@@ -1,6 +1,6 @@
 # gcloud-sdk + dotnetcore-3.1
 
-The base image for any project that aims to use git commit -m "first commit" in the same container. This image can also be found at [panot/gcloud-sdk-dotnetcore3.1](https://hub.docker.com/r/panot/gcloud-sdk-dotnetcore3.1).
+The base image for any project that aims to use .NET Core 3.1 together with gcloud SDK in the same container. This image can also be found at [panot/gcloud-sdk-dotnetcore3.1](https://hub.docker.com/r/panot/gcloud-sdk-dotnetcore3.1).
 
 ## Usage
 
