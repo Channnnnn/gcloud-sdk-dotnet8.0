@@ -1,6 +1,6 @@
 FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
 #RUN apt-get update && apt-get install openjdk-7-jre
-RUN apt-get install -y google-cloud-sdk-app-engine-java kubectl
+RUN apt-get install -y google-cloud-cli-app-engine-java kubectl
 #RUN gcloud components install app-engine-java kubectl
 
 RUN apt-get update \
@@ -11,7 +11,7 @@ RUN apt-get update \
         libc6 \
         libgcc1 \
         libgssapi-krb5-2 \
-        libicu63 \
+        libicu67 \
         libssl1.1 \
         libstdc++6 \
         zlib1g \
